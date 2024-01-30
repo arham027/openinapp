@@ -1,0 +1,34 @@
+/* Login.css */
+
+/* Define responsive styles for different screen widths */
+@media only screen and (max-width: 1400px) {
+    .h-1024px {
+      height: auto; /* Adjust height as needed */
+    }
+    .w-719px {
+      width: 100%; /* Make it full width */
+    }
+    .brand-text {
+      font-size: 24px; /* Adjust font size */
+      top: 25%; /* Adjust vertical positioning */
+      left: 50%; /* Adjust horizontal positioning */
+      transform: translate(-50%, -50%);
+    }
+    .login-form {
+      top: 10%; /* Adjust vertical positioning */
+      left: 50%; /* Adjust horizontal positioning */
+      transform: translateX(-50%);
+    }
+    .logo {
+      width: 60px; /* Adjust width */
+      height: 60px; /* Adjust height */
+      top: 5px; /* Adjust vertical positioning */
+      left: 50%; /* Adjust horizontal positioning */
+      transform: translateX(-50%);
+    }
+    .social-logo {
+      width: 30px; /* Adjust width */
+      height: 30px; /* Adjust height */
+    }
+  }
+  
